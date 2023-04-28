@@ -11,10 +11,26 @@ body {
     line-height: 1.6;
 }
 
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 /* Navigation */
-nav {
+header {
     background-color: #333;
-    padding: 10px;
+    padding: 20px 0;
+}
+
+header h1 {
+    color: #fff;
+    display: inline;
+}
+
+nav {
+    float: right;
 }
 
 nav ul {
@@ -23,7 +39,7 @@ nav ul {
 }
 
 nav ul li {
-    margin-right: 10px;
+    margin-left: 20px;
 }
 
 nav ul li a {
@@ -31,19 +47,25 @@ nav ul li a {
     text-decoration: none;
 }
 
+/* Hero section */
+.hero {
+    background-color: #f7f7f7;
+    padding: 40px 0;
+}
+
 /* Sections */
 section {
-    padding: 20px;
+    padding: 40px 0;
 }
 
 section h2 {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 /* Footer */
 footer {
     background-color: #333;
     color: #fff;
-    padding: 10px;
+    padding: 20px 0;
     text-align: center;
 }
